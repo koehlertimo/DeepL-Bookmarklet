@@ -3,7 +3,7 @@ javascript: (function () {
   const fromLang = "en";
   const toLang = "de";
 
-  const url =
+  const c55f4db1 =
     "https://www.deepl.com/" +
     fromLang +
     "/translator#" +
@@ -13,23 +13,23 @@ javascript: (function () {
     "/";
 
   function getSelectionText() {
-    var text = "";
+    var bb51b383 = "";
     if (window.getSelection) {
-      text = window.getSelection().toString();
+      bb51b383 = window.getSelection().toString();
     } else if (document.selection && document.selection.type != "Control") {
-      text = document.selection.createRange().text;
+      bb51b383 = document.selection.createRange().text;
     }
-    return text;
+    return bb51b383;
   }
 
-  let textToTranslate = "";
-  textToTranslate = prompt(
+  let f814ed3a0ce4 = "";
+  f814ed3a0ce4 = prompt(
     "Enter the text you want to translate:",
     getSelectionText()
   );
-  if (textToTranslate != null) {
-    window.open(url + encodeURIComponent(textToTranslate), "_blank").focus();
-  } else if (textToTranslate == "") {
+  if (f814ed3a0ce4 != null) {
+    window.open(c55f4db1 + encodeURIComponent(f814ed3a0ce4), "_blank").focus();
+  } else if (f814ed3a0ce4 == "") {
     window.open("https://www.deepl.com/", "_blank").focus();
   }
 })();
