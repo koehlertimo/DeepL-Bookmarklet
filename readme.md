@@ -8,10 +8,11 @@
 - Quick DeepL search from any website
 - Open up DeepL without any input
 - Change default language settings 
+![Feature Tour](/img/feature.gif)
 
 ## Install 
 - Create a Bookmark in your browser 
 - Paste in the code from the [following Code](./bookmark.js)
 - Use it by opening the bookmark
-
+![Install Guide](/img/install.gif)
 
