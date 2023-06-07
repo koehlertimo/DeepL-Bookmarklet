@@ -1,5 +1,5 @@
 javascript: (function () {
-  //change this for default language settings
+  /*change this for default language settings*/
   const fromLang = "en";
   const toLang = "de";
 
